@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Explorer sem limites</title>
+    <style>
+        :root{
+            --bg-primary: #FFF;
+            --bg-secondary: #312d64;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        .header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1{
+            color: #B52184;
+        }
+        legend{
+            font-size: 2rem;
+            color: #B52184;
+        }
+        .content{
+            background-color: var(--bg-secondary);
+            padding: 1rem;
+        }
+        .card{
+            background-color: var(--bg-primary);
+            border-radius: 20px;
+            margin: 2.5rem 1rem;
+            padding: 1rem;
+            /* display: flex; */
+        }
+        footer{
+            background-color: var(--bg-secondary);
+            color: #FFF;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <img src="img/image1.png" />
+            <div>
+                <h1>Explore sem limites</h1>
+                <h3>Porque o aprendizado é contínuo</h3>
+            </div>
+            <img src="img/group24.png" />
+        </header>
+        <section class="content">
+            <div class="card">
+                <img src="img/bola1.png" alt="Bola colorida" />
+                <h1>Não pare nunca</h1>
+                <p>
+                    Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.
+                </p>
+            </div>
+            <div class="card"> 
+                <img src="img/bola2.png" alt="Bola colorida" />                   
+                <h1>Só volta</h1>
+                <p>
+                    Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.
+                </p>
+            </div>
+            <div class="card">
+                <img src="img/bola3.png" alt="Bola colorida" />
+                <h1>Siga seu ritmo</h1>
+                <p>
+                    Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.
+                </p>
+            </div>
+        </section>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Entre em contato</legend>
+                    <label for="yourName">Seu nome</label>
+                    <input type="text" id="yourName" placeholder="Seu nome" />
+
+                    <label for="yourEmail">Seu e-mail</label>
+                    <input type="text" id="yourName" placeholder="Seu nome" />
+
+                    <label for="yourMessage">Sua mensagem</label>
+                    <textarea id="yourMessage"></textarea>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>&copy; 2023 - Rocketseat Explorer</footer>
+</body>
+</html>
